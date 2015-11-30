@@ -1,0 +1,29 @@
+{
+    "name": "defclass",
+    "version": "0.0.1",
+    "description": "Simple classical inheritance.",
+    "keywords": ["extend", "extends", "extension", "prototype", "prototypal", "class", "classical","inheritance", "constructor"],
+    "author": "Te </artisin> (https://github.com/artisin) <te.artisin@gmail.com>",
+    "main": "defclass.js",
+    "maintainers": [{
+        "name": "Te",
+        "email": "te.artisin@gmail.com",
+        "web": "http://artisin.github.io/"
+    }],
+    "contributors": [{
+        "name": "Aadit M Shah",
+        "email": "aaditmshah@fastmail.fm",
+        "web": "http://aaditmshah.github.io/"
+    }],
+    "bugs": "https://github.com/artisin/defclass/issues",
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/artisin/defclass.git"
+    },
+    "homepage": "https://github.com/artisin/defclass",
+    "dependencies": {}
+}
