@@ -25,14 +25,15 @@ If you need to inherit from another class use `extend`.
 ```js
 var defclass = require('defclass');
 
-var Soda = defclass.extend(Beer, {
+var Tea = defclass.extend(Beer, {
   constructor: function (type) {
     this.type = type;
+    this.temp = 'hot';
   }
 });
 
-var favSoda = new Soda("Pepsi");
-favSoda.getDrink(); //Here's a cold Pspsi!
+var favTea = new Tea("Darjeeling Black");
+favTea.getDrink(); //Here's a hot Darjeeling Black!
 ```
 
 ## Credit
