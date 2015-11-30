@@ -1,7 +1,7 @@
 # defclass
 Simple classical inheritance that is a whopping ten lines. Its [Augment](http://github.com/javascript/augment) without the augment.
 
-In the words of @aaditmshah
+In the words of Aadit Shah
 > No premature optimization. No need to read the documentation of libraries like ClassManager. I can directly focus on the task at hand and optimize those things that really need optimization.
 
 
