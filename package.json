@@ -1,6 +1,6 @@
 {
     "name": "defclass",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Simple classical inheritance.",
     "keywords": ["extend", "extends", "extension", "prototype", "prototypal", "class", "classical","inheritance", "constructor"],
     "author": "Te </artisin> (https://github.com/artisin) <te.artisin@gmail.com>",
