@@ -7,33 +7,35 @@ In the words of Aadit Shah
 
 ## Usage
 ```js
-var Beer = defclass({
+const defclass = require('defclass');
+
+const Beer = defclass({
   constructor: function (type) {
-    this.temp = 'cold';
     this.type = type;
+    this.count = 100;
+    this.temp = 'cold';
   },
-  getDrink: function () {
-    alert("Here's a " + this.temp + " " + this.type + "!");
+  getADrink: function () {
+    --this.count;
+    console.log(`Here's a ${this.temp} ${this.type}!`);
   }
 });
 
-var favBeer = new Beer("Spotted Cow");
-favBeer.getDrink(); //Here's a cold Spotted Cow!
+const favBeer = new Beer('Spotted Cow');
+favBeer.getADrink(); // Here's a cold Spotted Cow!
 ```
 
 If you need to inherit from another class use `extend`.
 ```js
-var defclass = require('defclass');
-
-var Tea = defclass.extend(Beer, {
-  constructor: function (type) {
-    this.type = type;
-    this.temp = 'hot';
+const GrabAnother = defclass.extend(Beer, {
+  sing: function () {
+    console.log(`${this.count} bottles of ${this.temp} ${this.type}'s on the wall.`);
   }
 });
 
-var favTea = new Tea("Darjeeling Black");
-favTea.getDrink(); //Here's a hot Darjeeling Black!
+const makeMeDance = new GrabAnother(`John's White Ale`);
+makeMeDance.getADrink(); // Here's a cold Spotted Cow!
+makeMeDance.sing(); // 99 bottles of cold John's White Ale's on the wall.
 ```
 
 ## Credit
