@@ -34,7 +34,7 @@ const GrabAnother = defclass.extend(Beer, {
 });
 
 const makeMeDance = new GrabAnother(`John's White Ale`);
-makeMeDance.getADrink(); // Here's a cold Spotted Cow!
+makeMeDance.getADrink(); // Here's a John's White Ale!
 makeMeDance.sing(); // 99 bottles of cold John's White Ale's on the wall.
 ```
 
