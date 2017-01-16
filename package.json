@@ -1,15 +1,15 @@
 {
     "name": "defclass",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Simple classical inheritance.",
     "keywords": ["extend", "extends", "extension", "prototype", "prototypal", "class", "classical","inheritance", "constructor"],
-    "author": "Te </artisin> (https://github.com/artisin) <te.artisin@gmail.com>",
+    "author": "te schultz <te.artisin@gmail.com> (http://teschultz.com)",
     "main": "defclass.js",
-    "maintainers": [{
-        "name": "Te",
+    "maintainers": {
+        "name": "te schultz",
         "email": "te.artisin@gmail.com",
-        "web": "http://artisin.github.io/"
-    }],
+        "web": "http://teschultz.com"
+    },
     "contributors": [{
         "name": "Aadit M Shah",
         "email": "aaditmshah@fastmail.fm",
